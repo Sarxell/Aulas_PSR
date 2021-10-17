@@ -60,19 +60,3 @@ def countNumbersUpTo(stop_char):
     print('The numbers inserted were ' + str(numbers))
     # caso seja preciso ordenar dicionarios por o value
     # print('The dictionary has' + str(dict(sorted(dictio.items(), key=lambda x: (x[1], x[0])))))
-
-
-def main():
-    '''
-    reads the char
-    :return: nothing
-    '''
-
-    c = readchar.readkey()
-    printAllCharsUpTo(c)
-    # readAllUpTo(c)
-    countNumbersUpTo(c)
-
-
-if __name__ == '__main__':
-    main()

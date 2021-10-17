@@ -49,19 +49,3 @@ def countNumbersUpTo(stop_char):
 
     print('You entered ' + str(total_numbers) + ' numbers.')
     print('You entered ' + str(total_others) + ' others.')
-
-
-def main():
-    '''
-    reads the char
-    :return: nothing
-    '''
-
-    c = readchar.readkey()
-    printAllCharsUpTo(c)
-    # readAllUpTo(c)
-    countNumbersUpTo(c)
-
-
-if __name__ == '__main__':
-    main()
