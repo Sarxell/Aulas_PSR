@@ -41,8 +41,7 @@ def countNumbersUpTo(stop_char):
 
         if a.isnumeric():
             total_numbers = total_numbers + 1
-
-        if a.isascii():
+        else:
             total_others = total_others + 1
 
         if a == stop_char:

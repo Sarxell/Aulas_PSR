@@ -35,7 +35,10 @@ def readAllUpTo(stop_char):
 def countNumbersUpTo(stop_char):
     total_numbers = 0
     total_others = 0
+    numbers=[]
     inputs = []
+    dictio={}
+
     while True:
         a = readchar.readkey()
         inputs.append(a)
@@ -46,12 +49,16 @@ def countNumbersUpTo(stop_char):
     for input in inputs:
         if input.isnumeric():
             total_numbers = total_numbers + 1
-
-        if input.isascii():
+            numbers.append(input)
+        else:
             total_others = total_others + 1
+            dictio[total_others] = input
+
 
     print('You entered ' + str(total_numbers) + ' numbers.')
     print('You entered ' + str(total_others) + ' others.')
+    print('The numbers inserted were ' + str(numbers))
+    print('The dictionary has' + str(dict(sorted(dictio.items(), key=lambda x: (x[1], x[0])))))
 
 
 def main():
