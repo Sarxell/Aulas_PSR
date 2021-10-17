@@ -54,11 +54,12 @@ def countNumbersUpTo(stop_char):
             total_others = total_others + 1
             dictio[total_others] = input
 
-
+    numbers.sort()
     print('You entered ' + str(total_numbers) + ' numbers.')
     print('You entered ' + str(total_others) + ' others.')
     print('The numbers inserted were ' + str(numbers))
-    print('The dictionary has' + str(dict(sorted(dictio.items(), key=lambda x: (x[1], x[0])))))
+    # caso seja preciso ordenar dicionarios por o value
+    # print('The dictionary has' + str(dict(sorted(dictio.items(), key=lambda x: (x[1], x[0])))))
 
 
 def main():
