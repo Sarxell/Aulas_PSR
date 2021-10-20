@@ -54,6 +54,7 @@ def countNumbersUpTo(stop_char):
             total_others = total_others + 1
             dictio[total_others] = input
 
+    #numbers = [x for x in inputs if x.isdigit()]
     numbers.sort()
     print('You entered ' + str(total_numbers) + ' numbers.')
     print('You entered ' + str(total_others) + ' others.')
