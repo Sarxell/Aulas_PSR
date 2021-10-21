@@ -17,6 +17,9 @@ def printAllCharsUpTo(stop_char):
         print(chr(inicial_number))
         inicial_number = inicial_number+1
 
+    # for i in range(ord(' '), ord(stop_char)):
+    #print(i)
+
 
 def readAllUpTo(stop_char):
     """
