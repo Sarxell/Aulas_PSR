@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 
 from Ex4 import readAllUpTo
 import readchar

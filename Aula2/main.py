@@ -1,27 +1,30 @@
+#!/usr/bin/python3
 #main function of the primos work
 
 from my_functions import isPrime
 from colorama import Fore,Back, Style
 import argparse, sys
 
-parser = argparse.ArgumentParser()
-
-parser.add_argument("--max_number", help="chooses the maximum number to use",
-                    type=int)
-args = parser.parse_args()
-
-if args.max_number < 1 or args.max_number > 1000:
-    raise argparse.ArgumentTypeError("invalid range")
-    sys.exit(1)
-
-maximum_number=args.max_number
-
-
 def main():
     """
     shows what number is prime and what number isn't
     :return: nothing
     """
+
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("--max_number", help="chooses the maximum number to use",
+                        type=int)
+    args = parser.parse_args()
+    # usar vars para colocar o argumento entre chavetas
+
+    if args.max_number < 1 or args.max_number > 1000:
+        print("invalid range, it needs to be between 1 and 1000")
+        sys.exit(1)
+
+    maximum_number = args.max_number
+    # com vars para se colocar o numero seria args['max_number']
+
     print("Starting to compute prime numbers up to " + str(maximum_number))
 
     counter=0
