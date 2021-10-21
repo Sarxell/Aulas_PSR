@@ -11,6 +11,8 @@ def main():
     :return: nothing
     '''
 
+    print('give me a char... ')
+
     c = readchar.readkey()
     printAllCharsUpTo(c)
     # readAllUpTo(c)
