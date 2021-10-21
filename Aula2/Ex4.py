@@ -28,10 +28,15 @@ def readAllUpTo(stop_char):
     """
     # não consigo perceber muito bem o que se quer dizer com a questão 4.b)
 
+    print('Type something (X to stop)')
     a = readchar.readkey()
 
     while a != stop_char:
-        a = readchar.readkey()
+        print('Type something (X to stop)')
+        a=readchar.readkey()
+        print('Thank you for typing ' + a)
+
+    print('Thank you for typing ' + a)
 
 
 def countNumbersUpTo(stop_char):
