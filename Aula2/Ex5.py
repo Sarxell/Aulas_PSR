@@ -40,6 +40,7 @@ def countNumbersUpTo(stop_char):
     dictio={}
 
     while True:
+        print('Type something (''X'' to stop)')
         a = readchar.readkey()
         inputs.append(a)
 

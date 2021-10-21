@@ -28,7 +28,7 @@ def readAllUpTo(stop_char):
     """
     # não consigo perceber muito bem o que se quer dizer com a questão 4.b)
 
-    print('Type something (X to stop)')
+    print('Type something (''X'' to stop)')
     a = readchar.readkey()
 
     while a != stop_char:
