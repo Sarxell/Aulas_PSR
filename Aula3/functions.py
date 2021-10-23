@@ -26,4 +26,7 @@ def printComplex(x):
     :param x: the complex number to print
     :return: nothing
     """
+    x = str(x)
+    x = x.strip(')')
+    x = x.strip('(')
     print(x)
