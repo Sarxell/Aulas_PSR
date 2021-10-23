@@ -1,5 +1,6 @@
-
+import colorama
 import readchar
+from colorama import Fore,Back, Style
 import sys
 
 
@@ -35,30 +36,46 @@ def readAllUpTo(stop_char):
 def countNumbersUpTo(stop_char):
     total_numbers = 0
     total_others = 0
-    numbers=[]
+    numbers = []
     inputs = []
-    dictio={}
+    dictio = {}
 
     while True:
         print('Type something (''X'' to stop)')
         a = readchar.readkey()
         inputs.append(a)
 
-        if a == stop_char:
+        if a == 'X':
             break
 
-    for input in inputs:
+    for index_input,input in enumerate(inputs):
         if input.isnumeric():
             total_numbers = total_numbers + 1
             numbers.append(input)
         else:
             total_others = total_others + 1
-            dictio[total_others] = input
+            dictio[index_input] = input
 
-    #numbers = [x for x in inputs if x.isdigit()]
-    numbers.sort()
+    #numbers = [x for x in inputs if str.isnumeric(x)]
+
+    list_other=list(dictio.values())
     print('You entered ' + str(total_numbers) + ' numbers.')
     print('You entered ' + str(total_others) + ' others.')
     print('The numbers inserted were ' + str(numbers))
+    print('The others inserted were ' + str(list_other))
     # caso seja preciso ordenar dicionarios por o value
     # print('The dictionary has' + str(dict(sorted(dictio.items(), key=lambda x: (x[1], x[0])))))
+
+    numbers.sort()
+    print('The sorted numbers inserted were ' + str(numbers))
+    no_rep=list(set(numbers))
+    no_rep.sort()
+    print('The sorted numbers inserted with no repetition were ' + str(no_rep))
+    colors = list(vars(colorama.Fore).values())
+    print(colors)
+    txt_colour=''
+
+    for i in range(0,len(list_other)):
+        txt_colour=txt_colour + colors[i] + Style.DIM + str(list_other[i]) + Style.RESET_ALL
+
+    print(txt_colour)
