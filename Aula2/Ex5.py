@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import colorama
 import readchar
 from colorama import Fore,Back, Style
