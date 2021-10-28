@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-from collections import namedtuple
-
-Complex = namedtuple('Complex', ['r', 'i'])
 
 class Complex:
 
@@ -10,17 +7,17 @@ class Complex:
         self.i = i  # store imaginary part in class instance
 
     def add(self, y):
-        real = self.r + y.r
-        imag = self.i + y.i
-        result = Complex(r=real, i=imag)
-        return result
+        self.r = self.r + y.r
+        self.i = self.i + y.i
 
     def multiply(self, y):
-        result = Complex(r=(self.r * y.r), i=(self.i * y.i))
-        return result
+        real = self.r*y.r - self.i*y.i
+        imag = self.i*y.r + self.r*y.i
+        self.r = real
+        self.i = imag
 
     def __str__(self):
-        return '(%g, %g)' % (self.r, self.i)
+        return '%g, %gj' % (self.r, self.i)
 
 
 def main():
@@ -35,7 +32,7 @@ def main():
 
     # test multiply
     print(c2)  # uses the __str__ method in the class
-    c2.add(c1)
+    c2.multiply(c1)
     print(c2)  # uses the __str__ method in the class
 
 
