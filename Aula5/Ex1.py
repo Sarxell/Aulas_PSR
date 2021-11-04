@@ -2,6 +2,8 @@
 
 import argparse
 import cv2
+import readchar
+
 
 def main():
 
@@ -18,9 +20,12 @@ def main():
         cv2.imshow('window', image)  # Display the image
         # image_bright=image+28
         # cv2.imshow('window2',image_bright)
-        cv2.waitKey(3000) # wait for a key press before proceeding
+        key=cv2.waitKey(3000) # wait for a key press before proceeding
         cv2.imshow('window', image2)  # Display the image
-
+        key=cv2.waitKey(3000)
+        if key==27:
+            cv2.destroyAllWindows()
+            break
 
     print(type(image))
 
