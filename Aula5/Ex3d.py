@@ -36,10 +36,7 @@ def main():
 
     limits = {'B': {'max': 200, 'min': 100},
                'G': {'max': 200, 'min': 100},
-               'R': {'max': 200, 'min': 100},
-              'H': {'max': 200, 'min': 100},
-              'S': {'max': 200, 'min': 100},
-              'V': {'max': 200, 'min': 100}}
+               'R': {'max': 200, 'min': 100}}
 
     mins = np.array([limits['B']['min'], limits['G']['min'], limits['R']['min']])
     maxs = np.array([limits['B']['max'], limits['G']['max'], limits['R']['max']])
