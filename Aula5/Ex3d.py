@@ -12,10 +12,10 @@ def onTrackbar(segmented_window, image, limits, val):
     maxs = np.array([limits['B']['max'], limits['G']['max'], limits['R']['max']])
     # getting the values of the trackbars
     mins[0] = cv2.getTrackbarPos('min B/H', segmented_window)
-    mins[1] = cv2.getTrackbarPos('min R/V', segmented_window)
+    mins[1] = cv2.getTrackbarPos('min G/S', segmented_window)
     mins[2] = cv2.getTrackbarPos('min R/V', segmented_window)
     maxs[0] = cv2.getTrackbarPos('max B/H', segmented_window)
-    maxs[1] = cv2.getTrackbarPos('max R/V', segmented_window)
+    maxs[1] = cv2.getTrackbarPos('max G/S', segmented_window)
     maxs[2] = cv2.getTrackbarPos('max R/V', segmented_window)
     print(mins)
     mask = cv2.inRange(image, mins, maxs)
