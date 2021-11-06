@@ -12,8 +12,8 @@ def main():
     image_filename = '../../Aulas_PSR/Aula5/atlascar.png'
 
     image_original = cv2.imread(args['image1'], cv2.IMREAD_COLOR)
-    # image_gray=cv2.cvtColor(image_original)
-    image_b, image_g, image_r = cv2.split(image_original)
+    image = cv2.cvtColor(image_original, cv2.COLOR_BGR2HSV)
+    image_b, image_g, image_r = cv2.split(image)
 
     ranges = {'b': {'min': 0, 'max': 50},
               'g': {'min': 80, 'max': 150},
@@ -22,11 +22,14 @@ def main():
 
     mins=np.array([ranges['b']['min'],ranges['g']['min'],ranges['r']['min']])
     maxs = np.array([ranges['b']['max'], ranges['g']['max'], ranges['r']['max']])
-    mask=cv2.inRange(image_original, mins,maxs)
+    mask = cv2.inRange(image_original, mins, maxs)
 
     mask=mask.astype(np.bool)
     image_processed = copy.deepcopy(image_original)
-    image_processed[mask] = (image_processed[mask]*0.4).astype(np.uint8)
+    #image_processed[mask] = (image_processed[mask]*0.4).astype(np.uint8)
+
+    # para pintar de vermelho
+    image_processed[mask] = (0, 0, 255)
     print(image_original.dtype)
     print(mask.dtype)
 
