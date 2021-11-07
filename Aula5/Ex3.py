@@ -7,7 +7,7 @@ import copy
 from functools import partial
 
 
-def onTrackbar(window_name,image_gray,val):
+def onTrackbar(window_name, image_gray, val):
     mask_black = cv2.inRange(image_gray, 0, val)
     mask_black = ~mask_black
     cv2.imshow('mask_black', mask_black)
