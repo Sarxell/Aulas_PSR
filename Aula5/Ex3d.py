@@ -26,7 +26,7 @@ def onTrackbar(segmented_window, image, limits, val):
     file_name = 'limits.json'
     with open(file_name, 'w') as file_handle:
         print('writing dictionary d to file ' + file_name)
-        json.dump(limits, file_handle)  # d is the dicionary
+        json.dump(str(limits), file_handle)  # d is the dicionary
 
     mask = cv2.inRange(image, mins, maxs)
     # mask = ~mask
