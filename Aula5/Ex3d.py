@@ -5,6 +5,7 @@ import cv2
 import numpy as np
 import copy
 from functools import partial
+import json
 
 
 def onTrackbar(segmented_window, image, limits, val):
@@ -17,7 +18,16 @@ def onTrackbar(segmented_window, image, limits, val):
     maxs[0] = cv2.getTrackbarPos('max B/H', segmented_window)
     maxs[1] = cv2.getTrackbarPos('max G/S', segmented_window)
     maxs[2] = cv2.getTrackbarPos('max R/V', segmented_window)
-    print(mins)
+
+    [limits['B']['min'], limits['G']['min'], limits['R']['min']] = mins
+    [limits['B']['max'], limits['G']['max'], limits['R']['max']] = maxs
+
+    print(limits)
+    file_name = 'limits.json'
+    with open(file_name, 'w') as file_handle:
+        print('writing dictionary d to file ' + file_name)
+        json.dump(limits, file_handle)  # d is the dicionary
+
     mask = cv2.inRange(image, mins, maxs)
     # mask = ~mask
     cv2.imshow(segmented_window, mask)
@@ -37,9 +47,6 @@ def main():
     limits = {'B': {'max': 200, 'min': 100},
                'G': {'max': 200, 'min': 100},
                'R': {'max': 200, 'min': 100}}
-
-    mins = np.array([limits['B']['min'], limits['G']['min'], limits['R']['min']])
-    maxs = np.array([limits['B']['max'], limits['G']['max'], limits['R']['max']])
 
     cv2.namedWindow(segmented_window)
 
