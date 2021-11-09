@@ -16,8 +16,8 @@ def main():
     image = cv2.imread(args['image'], cv2.IMREAD_COLOR)  # Load an image
     image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  # convert bgr to gray image (single channel)
     cv2.namedWindow(window_name)
-    cv2.circle(image, (200, 200), 50, (255, 0, 0), 2)
-
+    cv2.circle(image, (200, 200), 50, (0, 0, 255), 2)
+    cv2.putText(image, "PSR", (140, 70), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
     cv2.imshow(window_name,image)
 
     cv2.waitKey(0)
