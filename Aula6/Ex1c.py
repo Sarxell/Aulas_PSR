@@ -28,8 +28,8 @@ def line_drawing(img, color, event, x, y, flags, param):
 def main():
     img = 255*np.zeros((400, 600, 3), np.uint8)
     cv2.namedWindow('Ex 1c')
+    img = cv2.resize(img, (960, 540))
     color = (0, 0, 255)
-
     while 1:
         cv2.imshow('Ex 1c', img)
         key = cv2.waitKey(1)
@@ -41,6 +41,7 @@ def main():
             color = (0, 255, 0)
 
         cv2.setMouseCallback('Ex 1c', partial(line_drawing, img, color))
+
         if key & 0xFF == 27:
             break
     cv2.destroyAllWindows()
