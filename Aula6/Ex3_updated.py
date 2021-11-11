@@ -66,6 +66,15 @@ def main():
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         frame1 = copy.deepcopy(frame)
 
+        # edges
+        edges = cv2.Canny(frame1, 100, 200)
+        rgb = cv2.cvtColor(edges, cv2.COLOR_GRAY2RGB)
+        # step 2: now all edges are white (255,255,255). to make it red, multiply with another array:
+        rgb *= np.array((0, 0, 1), np.uint8)  # set g and b to 0, leaves red :)
+
+        mask = np.zeros(frame.shape, np.uint8)
+
+
         # detect faces in the grayscale frame
         rects = detector(gray, 0)
         area = 0
@@ -86,10 +95,6 @@ def main():
 
             area = h*w
 
-            edges = cv2.Canny(frame1, 100, 200)
-            rgb = cv2.cvtColor(edges, cv2.COLOR_GRAY2RGB)
-            # step 2: now all edges are white (255,255,255). to make it red, multiply with another array:
-            rgb *= np.array((0, 0, 1), np.uint8)  # set g and b to 0, leaves red :)
             rgb[y:y+h, x:x+w] = frame1[y:y+h, x:x+w]
             # step 3: compose:
             edges = np.bitwise_or(frame1, rgb)
@@ -98,7 +103,7 @@ def main():
             if area > max_area:
                 max_area = area
                 cv2.rectangle(frame1, (x, y), (x + w, y + h), (0, 255, 0), 2)
-                mask_face = cv2.rectangle(blk, (x, y), (x + w, y + h), (0, 255, 0), cv2.FILLED)
+                cv2.rectangle(blk, (x, y), (x + w, y + h), (0, 255, 0), cv2.FILLED)
 
             shape = predictor(gray, rect)
             shape = face_utils.shape_to_np(shape)
@@ -135,22 +140,22 @@ def main():
             if prev_mouth_img is None:
                 prev_mouth_img = mouth_img
             if is_speaking(prev_mouth_img, mouth_img, threshold=350):
-                print(Fore.GREEN + "The person is speaking" + Style.RESET_ALL)
                 cv2.putText(frame1, "The person is speaking", (10, 50), cv2.FONT_HERSHEY_PLAIN, 1,
                             (0, 255, 0))
+                print(Fore.GREEN + "The person is speaking" + Style.RESET_ALL , end='\r')
             else:
-                print( Fore.RED + "The person is NOT speaking" + Style.RESET_ALL)
                 cv2.putText(frame1, "The person is not speaking", (10, 50), cv2.FONT_HERSHEY_PLAIN, 1,
                             (0, 0, 255))
+                print( Fore.RED + "The person is NOT speaking" + Style.RESET_ALL , end='\r')
 
             prev_mouth_img = mouth_img
 
-            # show the frame
-            cv2.imshow("edges", edges)
-            cv2.imshow("mask face", mask)
-            cv2.imshow("Frame", frame1)
-            cv2.imshow("Original", frame)
             cv2.imshow('mouth', mouth_img)
+        # show the frame
+        cv2.imshow("edges", edges)
+        cv2.imshow("mask face", mask)
+        cv2.imshow("Frame", frame1)
+        cv2.imshow("Original", frame)
         key = cv2.waitKey(1) & 0xFF
 
         # if the Esc key was pressed, break from the loop
@@ -158,6 +163,11 @@ def main():
             break
 
     # do a bit of cleanup
+
+    # -------
+    # termination
+    # ----------
+
     cv2.destroyAllWindows()
     vs.stop()
 
