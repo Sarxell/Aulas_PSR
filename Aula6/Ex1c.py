@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from functools import partial
 
-drawing = False # true if mouse is pressed
+drawing = False  # true if mouse is pressed
 pt1_x, pt1_y = None, None
 
 
@@ -18,7 +18,7 @@ def line_drawing(img, color, event, x, y, flags, param):
 
     elif event == cv2.EVENT_MOUSEMOVE:
         if drawing:
-            cv2.line(img,(pt1_x,pt1_y), (x, y), color=color, thickness=3)
+            cv2.line(img, (pt1_x, pt1_y), (x, y), color=color, thickness=3)
             pt1_x, pt1_y = x, y
     elif event == cv2.EVENT_LBUTTONUP:
         drawing = False
@@ -26,7 +26,8 @@ def line_drawing(img, color, event, x, y, flags, param):
 
 
 def main():
-    img = 255*np.zeros((400, 600, 3), np.uint8)
+    img = np.zeros((400, 600, 3), np.uint8)
+    img.fill(255)
     cv2.namedWindow('Ex 1c')
     img = cv2.resize(img, (960, 540))
     color = (0, 0, 255)
