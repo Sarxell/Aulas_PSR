@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="ex updated">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="color_segmented.py done! Can be changed to be more efficient if needed">
+      <change afterPath="$PROJECT_DIR$/../PSR_TP2_G10/.idea/PSR_TP2_G10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PSR_TP2_G10/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PSR_TP2_G10/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Aulas_PSR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Aulas_PSR.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula6/Ex3_updated.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6/Ex3_updated.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/limits.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/limits.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +27,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../PSR_TP2_G10" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1zd9kU0iNWKQu5IEsW99uVKjec7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -83,7 +90,35 @@
       <option name="project" value="LOCAL" />
       <updated>1636639035075</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ex updated">
+      <created>1636641919706</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636641919706</updated>
+    </task>
+    <task id="LOCAL-00007" summary="color_segmented.py done! Can be changed to be more efficient if needed">
+      <created>1637000199273</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1637000199273</updated>
+    </task>
+    <task id="LOCAL-00008" summary="color_segmented.py done! Can be changed to be more efficient if needed">
+      <created>1637000281345</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1637000281345</updated>
+    </task>
+    <task id="LOCAL-00009" summary="color_segmented.py done! Can be changed to be more efficient if needed">
+      <created>1637001104909</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637001104909</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,7 +136,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ex updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex updated" />
+    <MESSAGE value="color_segmented.py done! Can be changed to be more efficient if needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="color_segmented.py done! Can be changed to be more efficient if needed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -110,11 +146,6 @@
           <url>file://$PROJECT_DIR$/Aula2/main_ex5.py</url>
           <line>2</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Aula6/Ex3_updated.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
