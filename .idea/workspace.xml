@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="color_segmented.py done! Can be changed to be more efficient if needed">
-      <change afterPath="$PROJECT_DIR$/../PSR_TP2_G10/.idea/PSR_TP2_G10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP2_G10/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP2_G10/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Aulas_PSR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Aulas_PSR.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PSR_TP2_G10/ar_paint.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/limits.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/limits.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/color_segmented.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/color_segmented.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../PSR_TP2_G10" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1zd9kU0iNWKQu5IEsW99uVKjec7" />
@@ -118,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637001104909</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="color_segmented.py done! Can be changed to be more efficient if needed">
+      <created>1637058490827</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637058490827</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +148,11 @@
           <url>file://$PROJECT_DIR$/Aula2/main_ex5.py</url>
           <line>2</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Aula5/Ex2.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
