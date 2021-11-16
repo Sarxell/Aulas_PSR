@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="Only the setups are done for now">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="in development!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/ar_paint.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/ar_paint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/color_segmented.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/color_segmented.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/limits.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/limits.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637063124617</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="in development!">
+      <created>1637064359089</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637064359089</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,7 +162,8 @@
     <MESSAGE value="ex updated" />
     <MESSAGE value="color_segmented.py done! Can be changed to be more efficient if needed" />
     <MESSAGE value="Only the setups are done for now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Only the setups are done for now" />
+    <MESSAGE value="in development!" />
+    <option name="LAST_COMMIT_MESSAGE" value="in development!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
