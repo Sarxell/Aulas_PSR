@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="in development!">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="color_segmented.py updated to send ranges as a dictionary">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/ar_paint.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/ar_paint.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/color_segmented.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/color_segmented.py" afterDir="false" />
@@ -142,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637064359089</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="error in the json file, need to change color segmented to not send string">
+      <created>1637068167316</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1637068167316</updated>
+    </task>
+    <task id="LOCAL-00015" summary="color_segmented.py updated to send ranges as a dictionary">
+      <created>1637072382029</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1637072382029</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,7 +177,9 @@
     <MESSAGE value="color_segmented.py done! Can be changed to be more efficient if needed" />
     <MESSAGE value="Only the setups are done for now" />
     <MESSAGE value="in development!" />
-    <option name="LAST_COMMIT_MESSAGE" value="in development!" />
+    <MESSAGE value="error in the json file, need to change color segmented to not send string" />
+    <MESSAGE value="color_segmented.py updated to send ranges as a dictionary" />
+    <option name="LAST_COMMIT_MESSAGE" value="color_segmented.py updated to send ranges as a dictionary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
