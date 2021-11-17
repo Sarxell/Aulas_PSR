@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="Aula8">
-      <change afterPath="$PROJECT_DIR$/../PSR_TP2_G10/ar_paint_v1.py" afterDir="false" />
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="Ex updated with program with centroid and the biggest object">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/ar_paint.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/ar_paint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/color_segmenter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/color_segmenter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/ar_paint_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/ar_paint_v1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/limits.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/limits.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637142423152</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Ex updated with program with centroid and the biggest object">
+      <created>1637146879246</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1637146879246</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +209,8 @@
     <MESSAGE value="errors worked, problem in the dictionary solved" />
     <MESSAGE value="if changed, it is working properly the implemented challenges" />
     <MESSAGE value="Aula8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula8" />
+    <MESSAGE value="Ex updated with program with centroid and the biggest object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex updated with program with centroid and the biggest object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
