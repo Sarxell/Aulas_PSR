@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="Ex updated with program with centroid and the biggest object">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="ar_paint_v1.py can draw with the cellphone!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/ar_paint_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/ar_paint_v1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/limits.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/limits.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637146879246</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ar_paint_v1.py can draw with the cellphone!">
+      <created>1637152376539</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1637152376539</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +216,8 @@
     <MESSAGE value="if changed, it is working properly the implemented challenges" />
     <MESSAGE value="Aula8" />
     <MESSAGE value="Ex updated with program with centroid and the biggest object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex updated with program with centroid and the biggest object" />
+    <MESSAGE value="ar_paint_v1.py can draw with the cellphone!" />
+    <option name="LAST_COMMIT_MESSAGE" value="ar_paint_v1.py can draw with the cellphone!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
