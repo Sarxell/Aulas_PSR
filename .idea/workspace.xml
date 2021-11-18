@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="ar_paint_v1.py can draw with the cellphone!">
-      <change beforePath="$PROJECT_DIR$/../PSR_TP2_G10/ar_paint_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP2_G10/ar_paint_v1.py" afterDir="false" />
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="ex updated">
+      <change afterPath="$PROJECT_DIR$/../PSR_TP2_G10/image_13:53:26_2021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PSR_TP2_G10/image_13:53:29_2021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PSR_TP2_G10/image_13:53:30_2021.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../PSR_TP2_G10" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1zd9kU0iNWKQu5IEsW99uVKjec7" />
@@ -195,7 +198,28 @@
       <option name="project" value="LOCAL" />
       <updated>1637155766563</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ar_paint_v1.py can draw with the cellphone! also, the cross is done and the green">
+      <created>1637156098284</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1637156098284</updated>
+    </task>
+    <task id="LOCAL-00023" summary="ar_paint_v1.py can draw with the cellphone! misses in the saved file the weekday">
+      <created>1637157262076</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1637157262076</updated>
+    </task>
+    <task id="LOCAL-00024" summary="ex updated">
+      <created>1637229701303</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1637229701303</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +236,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ex updated" />
     <MESSAGE value="color_segmented.py done! Can be changed to be more efficient if needed" />
     <MESSAGE value="Only the setups are done for now" />
     <MESSAGE value="in development!" />
@@ -223,7 +246,10 @@
     <MESSAGE value="Aula8" />
     <MESSAGE value="Ex updated with program with centroid and the biggest object" />
     <MESSAGE value="ar_paint_v1.py can draw with the cellphone!" />
-    <option name="LAST_COMMIT_MESSAGE" value="ar_paint_v1.py can draw with the cellphone!" />
+    <MESSAGE value="ar_paint_v1.py can draw with the cellphone! also, the cross is done and the green" />
+    <MESSAGE value="ar_paint_v1.py can draw with the cellphone! misses in the saved file the weekday" />
+    <MESSAGE value="ex updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
