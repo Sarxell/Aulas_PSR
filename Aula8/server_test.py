@@ -6,6 +6,8 @@
 # --------------------------------------------------
 import socket
 
+from Aula8.dog_lib import Dog
+
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # create TCP/IP socket
 local_hostname = socket.gethostname()  # retrieve local hostname
 local_fqdn = socket.getfqdn()  # get fully qualified hostname
@@ -32,6 +34,16 @@ while True:
             data = connection.recv(64)
             if data:
                 print ("Data: %s" % data) # output received data
+                data = data.decode('utf-8')
+
+                # deserialization
+                messages = data.split(',')
+                print(messages)
+                dog = Dog(messages[0], messages[1], messages[2])
+                for brother in messages[3:]:
+                    dog.addBrother(brother)
+
+
             else:
                 print ("no more data.") # no more data -- quit the loop
                 break

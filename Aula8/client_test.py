@@ -7,6 +7,8 @@
 import socket
 import time
 
+from Aula8.dog_lib import Dog
+
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # create TCP/IP socket
 local_hostname = socket.gethostname()  # retrieve local hostname
 local_fqdn = socket.getfqdn()  # get fully qualified hostname
@@ -16,8 +18,31 @@ server_address = (ip_address, 23456)  # bind the socket to the port 23456, and c
 sock.connect(server_address)
 print ("connecting to %s (%s) with %s" % (local_hostname, local_fqdn, ip_address))
 
+
+
+# dog instance
+dog=Dog('Kenai', 'brown', 4)
+dog.addBrother('Koda')
+print(dog)
+
+
+# create message by serializing
 # define example data to be sent to the server
-messages = [30, 'Robotics', 31, 14, 'Automation', 18]
+#messages = [30, 'Robotics', 31, 14, 'Automation', 18]
+
+messages=[]
+messages.append(dog.name)
+messages.append(',')
+messages.append(dog.color)
+messages.append(',')
+messages.append(str(dog.age))
+for brother in dog.brothers:
+    messages.append(',')
+    messages.append(brother)
+
+print(messages)
+messages = ''.join(messages)
+
 for message in messages:
     print ('Sending message: ' + str(message))
     message_formated = str(message).encode("utf-8")
