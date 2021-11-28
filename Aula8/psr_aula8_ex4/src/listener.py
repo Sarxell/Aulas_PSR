@@ -6,9 +6,10 @@
 import rospy
 from std_msgs.msg import String
 import argparse
+from psr_aula8_ex4.msg import Dog
 
-def callback(data):
-    rospy.loginfo(rospy.get_caller_id() + 'I heard %s', data.data)
+def callback(msg):
+    rospy.loginfo(rospy.get_caller_id() + 'Received a dog %s ', msg.name + 'wich is ' + str(msg.age))
 
 def listener():
 
@@ -18,15 +19,16 @@ def listener():
     # name for our 'listener' node so that multiple listeners can
     # run simultaneously.
     parser = argparse.ArgumentParser(description='PSR argparse example')
-    parser.add_argument('--topic', type=str, required=True, default='A1')
+    parser.add_argument('--topic', type=str, required=True, default='chatter')
     parser.add_argument('--topic2', type=str)
     parser.add_argument('--sub', type=str, required=True, default='sub')
     args = vars(parser.parse_args())
 
     rospy.init_node(args['sub'], anonymous=True)
-    rospy.Subscriber(args['topic'], String, callback)
+    rospy.Subscriber(args['topic'], Dog , callback)
     if args['topic2']:
         rospy.Subscriber(args['topic2'], String, callback)
+
 
     # ----------------------------
     # execution
