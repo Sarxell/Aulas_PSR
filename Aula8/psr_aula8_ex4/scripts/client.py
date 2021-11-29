@@ -30,6 +30,8 @@ def SetDogName_client(dog):
     rospy.init_node(args['pub'], anonymous=True)
     rospy.Subscriber(args['topic_sub'], String, callback)
 
+    dog = args['message']
+
     if args['topic_pub'] == 'set_dog_name':
         rospy.wait_for_service(args['topic_pub'])
     else:
@@ -57,6 +59,7 @@ def SetDogName_client(dog):
 
         pub.publish(doggy)
         rate.sleep()
+    rospy.spin()
 
 
 

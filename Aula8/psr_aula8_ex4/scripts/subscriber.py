@@ -12,8 +12,7 @@ pub = None
 
 
 def callback(msg):
-    rospy.loginfo(rospy.get_caller_id() + 'Received a dog %s ', msg.name + 'which is ' + str(msg.age))
-    pub.publish(msg.name)
+    rospy.loginfo(rospy.get_caller_id() + 'Received a dog %s ', msg.name + ' which is ' + str(msg.age))
 
 
 def handle_SetDogName(req):
@@ -39,7 +38,7 @@ def SetDogName_server():
     else:
         rospy.Subscriber(args['topic_sub'], Dog, callback)
 
-
+    pub.publish('im trying to connect both')
     rospy.spin()
 
 
