@@ -1,0 +1,27 @@
+<launch>
+  <node name="publisher_A" pkg="rospy_tutorials" type="talker">
+       <remap from="chatter" to="dog1"/>
+  </node>
+  
+  <node name="publisher_B" pkg="rospy_tutorials" type="talker" >
+         <remap from="chatter" to="dog1"/>
+  </node>
+  
+  <node name="publisher_C" pkg="rospy_tutorials" type="talker" >
+         <remap from="chatter" to="dog2"/>
+  </node>
+  
+  
+  <node name="subscriber_AB1" pkg="rospy_tutorials" type="listener.py">
+           <remap from="chatter" to="dog1"/>
+  </node>
+  
+  <node name="subscriber_AB2" pkg="rospy_tutorials" type="listener.py">
+           <remap from="chatter" to="dog1"/>
+  </node>
+  
+  <node name="subscriber_B" pkg="rospy_tutorials" type="listener.py">
+           <remap from="chatter" to="dog2"/>
+  </node>
+  
+</launch>
