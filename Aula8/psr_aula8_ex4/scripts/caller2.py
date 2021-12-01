@@ -9,8 +9,6 @@ import argparse
 import rospy
 from psr_aula8_ex4.srv import *
 
-Dog_name = 'max'
-
 def callback(msg):
     print('The name of the dog is ' + msg.data)
 
@@ -25,7 +23,6 @@ def SetDogName_client(dog):
         print("Service call failed: %s" % e)
 
 def caller2():
-    global Dog_name
 
     parser = argparse.ArgumentParser(description='Aula8_ex5')
     parser.add_argument('--topic_sub', type=str, required=True, default='Animals')
@@ -42,9 +39,9 @@ def caller2():
 
         if args['topic_sub'] == 'set_dog_name':
             SetDogName_client(args['name'])
-            doggy.name = Dog_name
+            doggy.name = args['name']
         else:
-            doggy.name = Dog_name
+            doggy.name = "max"
 
         doggy.age = 18
         doggy.color = 'black'
@@ -54,6 +51,7 @@ def caller2():
         pub.publish(doggy)
         rate.sleep()
     rospy.spin()
+
 
 if __name__ == '__main__':
     try:
