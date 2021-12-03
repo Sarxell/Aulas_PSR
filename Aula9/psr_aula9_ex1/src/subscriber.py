@@ -4,11 +4,17 @@
 ## to the 'chatter' topic
 
 import rospy
+from psr_aula8_ex4.msg import Dog
 from std_msgs.msg import String
 import argparse
 
-def callback(data):
-    rospy.loginfo(rospy.get_caller_id() + 'I heard %s', data.data)
+
+def callback(msg):
+    msg_stamp = msg.header.stamp
+    stamp_now = rospy.Time.now()
+    duration = (msg_stamp - stamp_now).to_sec()
+    rospy.loginfo(rospy.get_caller_id() + 'I heard  %s',  + ' ' + str(duration))
+
 
 
 def listener():
@@ -19,7 +25,7 @@ def listener():
     # run simultaneously.
 
     rospy.init_node('subscriber', anonymous=True)
-    rospy.Subscriber('chatter', String, callback)
+    rospy.Subscriber('chatter', Dog, callback)
 
     # ----------------------------
     # execution

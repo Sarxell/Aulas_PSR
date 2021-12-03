@@ -44,6 +44,7 @@ def caller2():
             doggy.name = "max"
 
         doggy.age = 18
+        doggy.header.stamp= rospy.Time.now()
         doggy.color = 'black'
         doggy.brothers.append('lilly')
         doggy.brothers.append('boby')
