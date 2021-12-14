@@ -24,6 +24,7 @@ def callback(msg):
     # publish it
     pc_pub.publish(pc2_msg)
 
+    ## Example
     # convert it to a generator of the individual points
     point_generator = pc2.read_points(pc2_msg)
 
@@ -54,7 +55,6 @@ def lidar_subscriber():
     # initialization
     # ---------------------------
     rospy.init_node('subscriber', anonymous=True)
-
 
     lp = lg.LaserProjection()
     pc_pub = rospy.Publisher('msg_pub', PointCloud2, queue_size=1)
