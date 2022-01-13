@@ -12,10 +12,10 @@ if __name__ == '__main__':
     tfBuffer = tf2_ros.Buffer()
     listener = tf2_ros.TransformListener(tfBuffer)
 
-    Mercury = rospy.get_param('planet_child','Mercury')
+    Mercury = rospy.get_param('planet_parent', 'Mercury')
     Moon = rospy.get_param('planet_child', 'Moon')
     pub = rospy.Publisher('planets/distance', geometry_msgs.msg.Twist, queue_size=1)
-    rate = rospy.Rate(10.0)
+    rate = rospy.Rate(1.0)
     while not rospy.is_shutdown():
         try:
             trans = tfBuffer.lookup_transform(Moon, 'Mercury', rospy.Time())

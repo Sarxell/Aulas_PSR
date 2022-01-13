@@ -9,8 +9,7 @@ if __name__ == '__main__':
 
     planet_parent = rospy.get_param('~planet_parent')
     planet_child = rospy.get_param('~planet_child')
-    distancex = rospy.get_param('~distancex')
-    distancey = rospy.get_param('~distancey')
+    distance = rospy.get_param('~distance')
     velocity = rospy.get_param('~velocity')
 
     br = tf2_ros.TransformBroadcaster()
@@ -20,12 +19,15 @@ if __name__ == '__main__':
     t.child_frame_id = planet_child
 
     rate = rospy.Rate(10.0)
+    alpha = 0
     while not rospy.is_shutdown():
-        x = rospy.Time.now().to_sec() * velocity
+        alpha += (1/velocity)/100
+        if alpha > 2*math.pi:
+            alpha = 0
 
         t.header.stamp = rospy.Time.now()
-        t.transform.translation.x = distancex * math.sin(x)
-        t.transform.translation.y = distancey * math.cos(x)
+        t.transform.translation.x = distance * math.sin(alpha)
+        t.transform.translation.y = distance * math.cos(alpha)
         t.transform.translation.z = 0.0
         t.transform.rotation.x = 0.0
         t.transform.rotation.y = 0.0

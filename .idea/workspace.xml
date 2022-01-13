@@ -4,11 +4,123 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="ex updated">
-      <change afterPath="$PROJECT_DIR$/../PSR_TP2_G10/image_13:53:26_2021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP2_G10/image_13:53:29_2021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP2_G10/image_13:53:30_2021.png" afterDir="false" />
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="right_laser.launch and left_laser.launch added">
+      <change afterPath="$PROJECT_DIR$/Aula11/psr_parte11_scara_description/config/scara.rviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula11/psr_parte11_scara_description/urdf/scara.urdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula11/psr_parte11_scara_description/urdf/scara_test.urdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/config/visualize.rviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/bringup.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/gazebo.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/spawn.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/teleop.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/teleop_joy.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/teleop_joyps3.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/visualize.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_description/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_description/package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.gazebo.xacro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.urdf.xacro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR/materials/scripts/tft_ahead.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR/materials/scripts/tft_chess.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR/materials/scripts/tft_left.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR/materials/scripts/tft_park.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR/materials/scripts/tft_right.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR/materials/scripts/tft_stop.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR/materials/textures/AHEAD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR/materials/textures/CHESS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR/materials/textures/LEFT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR/materials/textures/PARK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR/materials/textures/RIGHT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR/materials/textures/STOP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR2015_map/map2015.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR2015_map/materials/scripts/fnr2015_map.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR2015_map/materials/textures/track.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/FNR2015_map/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/obstacle/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/obstacle/obstacle.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/tft/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/tft/monitor.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/tft/tft.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/trafficCone/TrafficConeColor.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/trafficCone/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/trafficCone/trafficCone.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/BusSignal/materials/scripts/signal.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/BusSignal/materials/textures/bus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/BusSignal/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/BusSignal/signal.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/BusSignal/signal.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/LightsSignal/materials/scripts/signal.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/LightsSignal/materials/textures/lights.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/LightsSignal/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/LightsSignal/signal.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/LightsSignal/signal.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/RoundAboutSignal/materials/scripts/signal.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/RoundAboutSignal/materials/textures/round_about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/RoundAboutSignal/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/RoundAboutSignal/signal.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/RoundAboutSignal/signal.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/TurnLeftSignal/materials/scripts/signal.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/TurnLeftSignal/materials/textures/turn_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/TurnLeftSignal/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/TurnLeftSignal/signal.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/CircularSignals/TurnLeftSignal/signal.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/CrosswalkSignal/materials/scripts/signal.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/CrosswalkSignal/materials/textures/crosswalk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/CrosswalkSignal/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/CrosswalkSignal/signal.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/CrosswalkSignal/signal.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/HospitalSignal/materials/scripts/signal.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/HospitalSignal/materials/textures/hospital.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/HospitalSignal/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/HospitalSignal/signal.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/HospitalSignal/signal.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/ParkSignal/materials/scripts/signal.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/ParkSignal/materials/textures/park.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/ParkSignal/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/ParkSignal/signal.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/ParkSignal/signal.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/RMVSignal/materials/scripts/signal.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/RMVSignal/materials/textures/RMV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/RMVSignal/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/RMVSignal/signal.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/QuadrangularSignals/RMVSignal/signal.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/CattleSignal/materials/scripts/signal.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/CattleSignal/materials/textures/cattle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/CattleSignal/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/CattleSignal/signal.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/CattleSignal/signal.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/DepressionSignal/materials/scripts/signal.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/DepressionSignal/materials/scripts/signal_rn.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/DepressionSignal/materials/textures/depression.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/DepressionSignal/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/DepressionSignal/signal.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/DepressionSignal/signal.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/OtherDangersSignal/materials/scripts/signal.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/OtherDangersSignal/materials/textures/other_dangers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/OtherDangersSignal/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/OtherDangersSignal/signal.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/OtherDangersSignal/signal.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/RoadNarrowSignal/materials/scripts/signal.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/RoadNarrowSignal/materials/textures/road_narrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/RoadNarrowSignal/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/RoadNarrowSignal/signal.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/description/models/verticalSignals/TriangularSignals/RoadNarrowSignal/signal.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/psr_fnr/worlds/fnr.world" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Aulas_PSR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Aulas_PSR.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/psr_aula11/launch/planets.launch" beforeDir="false" afterPath="$PROJECT_DIR$/Aula11/psr_aula11/launch/planets.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/psr_aula11/nodes/circular_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula11/psr_aula11/nodes/circular_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/psr_aula11/nodes/mercury_to_moon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula11/psr_aula11/nodes/mercury_to_moon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/psr_aula11/nodes/planets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula11/psr_aula11/nodes/planets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/psr_parte11_scara_description/launch/display.launch" beforeDir="false" afterPath="$PROJECT_DIR$/Aula11/psr_parte11_scara_description/launch/display.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula11/psr_parte11_scara_description/src/scara.urdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/pointgrey_flea3.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/pointgrey_flea3.launch" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +151,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Thesis.github.io" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Blog/ATLASCAR2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -219,7 +331,35 @@
       <option name="project" value="LOCAL" />
       <updated>1637229701303</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="ex aula11">
+      <created>1639595283247</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1639595283247</updated>
+    </task>
+    <task id="LOCAL-00026" summary="ex aula11">
+      <created>1639595727880</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1639595727880</updated>
+    </task>
+    <task id="LOCAL-00027" summary="right_laser.launch and left_laser.launch added">
+      <created>1640261671628</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1640261671628</updated>
+    </task>
+    <task id="LOCAL-00028" summary="right_laser.launch and left_laser.launch added">
+      <created>1640261985814</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1640261985814</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +389,9 @@
     <MESSAGE value="ar_paint_v1.py can draw with the cellphone! also, the cross is done and the green" />
     <MESSAGE value="ar_paint_v1.py can draw with the cellphone! misses in the saved file the weekday" />
     <MESSAGE value="ex updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex updated" />
+    <MESSAGE value="ex aula11" />
+    <MESSAGE value="right_laser.launch and left_laser.launch added" />
+    <option name="LAST_COMMIT_MESSAGE" value="right_laser.launch and left_laser.launch added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

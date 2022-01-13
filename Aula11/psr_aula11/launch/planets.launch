@@ -3,41 +3,36 @@
     <node name="Earth" pkg="psr_aula11" type="planets.py" >
       <param name="planet_parent" type="string" value="Sun" />
       <param name="planet_child" type="string" value="Earth" />
-      <param name="distancex" value="1" />
-      <param name="distancey" value="1" />
+      <param name="distance" value="1" />
       <param name="velocity" value="1" />
     </node>
 
     <node name="Mercury" pkg="psr_aula11" type="planets.py" >
       <param name="planet_parent" type="string" value="Sun" />
       <param name="planet_child" type="string" value="Mercury" />
-      <param name="distancex" value="0.387" />
-      <param name="distancey" value="0.241" />
+      <param name="distance" value="0.387" />
       <param name="velocity" value="1.56" />
     </node>
 
     <node name="Venus" pkg="psr_aula11" type="planets.py" >
       <param name="planet_parent" type="string" value="Sun" />
       <param name="planet_child" type="string" value="Venus" />
-      <param name="distancex" value="0.723" />
-      <param name="distancey" value="0.615" />
+      <param name="distance" value="0.723" />
       <param name="velocity" value="1.18" />
     </node>
 
     <node name="Mars" pkg="psr_aula11" type="planets.py" >
       <param name="planet_parent" type="string" value="Sun" />
       <param name="planet_child" type="string" value="Mars" />
-      <param name="distancex" value="1.52" />
-      <param name="distancey" value="1.88" />
+      <param name="distance" value="1.52" />
       <param name="velocity" value="0.808" />
     </node>
 
     <node name="Moon" pkg="psr_aula11" type="planets.py" >
       <param name="planet_parent" type="string" value="Earth" />
       <param name="planet_child" type="string" value="Moon" />
-      <param name="distancex" value="0.0027" />
-      <param name="distancey" value="0.0748" />
-      <param name="velocity" value="0.0343" />
+      <param name="distance" value="0.0027" />
+      <param name="velocity" value="0.343" />
     </node>
 
 </launch>
