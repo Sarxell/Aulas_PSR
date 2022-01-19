@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<robot name="turtlebot3_waffle_pi_sim" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="s_pombinho_sim" xmlns:xacro="http://ros.org/wiki/xacro">
+<!--  <xacro:arg name="player_name" default="p_spombinho"/>-->
+<!--  <xacro:arg name="player_color" default="Blue"/>-->
   <xacro:arg name="laser_visual"  default="false"/>
   <xacro:arg name="camera_visual" default="false"/>
   <xacro:arg name="imu_visual"    default="false"/>
@@ -16,6 +18,7 @@
     <minDepth>0.001</minDepth>
     <maxVel>0.1</maxVel>
     <fdir1>1 0 0</fdir1>
+<!--    <material>Gazebo/${player_color}</material>-->
     <material>Gazebo/Blue</material>
   </gazebo>
 
@@ -27,6 +30,7 @@
     <minDepth>0.001</minDepth>
     <maxVel>0.1</maxVel>
     <fdir1>1 0 0</fdir1>
+<!--    <material>Gazebo/${player_color}</material>-->
     <material>Gazebo/Blue</material>
   </gazebo>
 
