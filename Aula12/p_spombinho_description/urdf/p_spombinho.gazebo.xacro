@@ -16,7 +16,7 @@
     <minDepth>0.001</minDepth>
     <maxVel>0.1</maxVel>
     <fdir1>1 0 0</fdir1>
-    <material>Gazebo/${player_color}</material>
+<!--    <material>Gazebo/${player_color}</material>-->
     <material>Gazebo/Blue</material>
   </gazebo>
 

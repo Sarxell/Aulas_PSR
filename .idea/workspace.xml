@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="Ex classes updated">
-      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/gmapping.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/game_bringup.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/params/game.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula13/p_spombinho_core/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula13/p_spombinho_core/package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula13/p_spombinho_core/src/model_states_to_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula13/p_spombinho_player/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula13/p_spombinho_player/package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula13/p_spombinho_player/src/driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/config/visualize.rviz" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/config/visualize.rviz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/bringup.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/spawn.launch" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/spawn.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/gmapping.launch" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/gmapping.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/teleop_joyps3.launch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.gazebo.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.gazebo.xacro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.urdf.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.urdf.xacro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/drivers.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/drivers.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/pointgrey_flea3.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/pointgrey_flea3.launch" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +42,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/drivers.launch" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/pointgrey_flea3.launch" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Aula13/p_spombinho_player/src/driver.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Aula13/p_spombinho_core/src/model_states_to_tf.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/bringup.launch" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/spawn.launch" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.gazebo.xacro" root0="FORCE_HIGHLIGHTING" />
@@ -267,7 +277,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642068017892</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Ex classes updated">
+      <created>1642601227655</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1642601227655</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Ex classes updated">
+      <created>1642615123399</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1642615123399</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

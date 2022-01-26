@@ -5,7 +5,8 @@
 
   <!--Args are local, properties are global, so we copy the values of the arguments to the properties-->
   <xacro:arg name="player_name" default="s_pombinho" />
-  <xacro:arg name="player_color" default="Orange" /> <!-- e.g. Red, Orange. Must exist in Gazebo/Colors and be defined in properties.xacro.-->
+  <xacro:arg name="player_color" default="Orange" />
+  <!-- e.g. Red, Orange. Must exist in Gazebo/Colors and be defined in properties.xacro.-->
 
   <!--Properties are global so they can be viewed from inside the included xacros-->
   <!--  args are used with $(arg arg_name), properties are used as ${property_name}-->
@@ -14,7 +15,9 @@
 
   <!-- Include other files-->
   <xacro:include filename="$(find p_spombinho_description)/urdf/p_spombinho.gazebo.macro.xacro"/>
-  <xacro:gazebo_macro player_color="${player_color}" laser_visual="true" camera_visual="false" imu_visual="true"/>
+  <xacro:gazebo_macro player_color="${player_color}" laser_visual="false" camera_visual="false" imu_visual="false"/>
+<!--  <xacro:gazebo_macro player_color="${player_color}" />-->
+
 
   <link name="base_footprint"/>
 
