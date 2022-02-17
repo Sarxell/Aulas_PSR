@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>p_spombinho_bringup</name>
+  <name>p_spombinho_bringup_class</name>
   <version>0.0.0</version>
-  <description>The p_spombinho_bringup package</description>
+  <description>The p_spombinho_bringup_class package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
