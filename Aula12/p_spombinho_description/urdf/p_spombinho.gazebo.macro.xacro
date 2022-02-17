@@ -6,7 +6,21 @@
 <!--  <xacro:arg name="camera_visual" default="false"/>-->
 <!--  <xacro:arg name="imu_visual"    default="false"/>-->
   <gazebo reference="base_link">
-    <material>Gazebo/DarkGrey</material>
+    <material>Gazebo/${player_color}</material>
+  </gazebo>
+
+  <gazebo reference="base_link">
+    <sensor name="base_link" type="contact">
+      <update_rate>1000.0</update_rate>
+      <always_on>true</always_on>
+      <contact>
+        <collision>base_footprint_fixed_joint_lump__base_link_collision_collision</collision>
+      </contact>
+      <plugin name="base_link_contact_sensor_plugin" filename="libgazebo_ros_bumper.so">
+        <bumperTopicName>contact</bumperTopicName>
+        <frameName>world</frameName>
+      </plugin>
+    </sensor>
   </gazebo>
 
   <gazebo reference="wheel_left_link">
@@ -17,8 +31,8 @@
     <minDepth>0.001</minDepth>
     <maxVel>0.1</maxVel>
     <fdir1>1 0 0</fdir1>
-    <material>Gazebo/${player_color}</material>
-<!--    <material>Gazebo/Blue</material>-->
+<!--    <material>Gazebo/${player_color}</material>-->
+    <material>Gazebo/FlatBlack</material>
   </gazebo>
 
   <gazebo reference="wheel_right_link">
@@ -29,8 +43,8 @@
     <minDepth>0.001</minDepth>
     <maxVel>0.1</maxVel>
     <fdir1>1 0 0</fdir1>
-    <material>Gazebo/${player_color}</material>
-<!--    <material>Gazebo/Blue</material>-->
+<!--    <material>Gazebo/${player_color}</material>-->
+    <material>Gazebo/FlatBlack</material>
   </gazebo>
 
   <gazebo reference="caster_back_right_link">

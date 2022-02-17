@@ -2,9 +2,13 @@
 import copy
 import math
 
+import numpy as np
 import rospy
 import tf2_ros
 from geometry_msgs.msg import Twist, PoseStamped
+from sensor_msgs.msg import Image
+from cv_bridge import CvBridge
+import cv2
 import tf2_geometry_msgs # Do not use geometry_msgs. Use this for PoseStamped (depois perguntar porque)
 
 
@@ -14,12 +18,30 @@ class Driver:
         # Define the goal to which the robot should move
         self.goal = PoseStamped
         self.goal_active = False
-
         self.tf_buffer = tf2_ros.Buffer()
         self.listener = tf2_ros.TransformListener(self.tf_buffer)
         self.publisher_command = rospy.Publisher('/p_spombinho/cmd_vel', Twist, queue_size=1)
         self.timer = rospy.Timer(rospy.Duration(0.1), self.sendCommandCallback)
         self.goal_subscriber = rospy.Subscriber('/move_base_simple/goal', PoseStamped, self.goalReceivedCallBack)
+
+        self.name = rospy.get_name()
+        self.br = CvBridge()
+        self.image_subscriber = rospy.Subscriber('/' + self.name + '/camera/rgb/image_raw', Image, self.GetImagePrey)
+        self.whichTeam()
+
+    def whichTeam(self):
+        red_names = rospy.get_param('/red_players')
+        green_names = rospy.get_param('/green_players')
+        blue_names = rospy.get_param('/blue_players')
+        for idx, x in enumerate(red_names):
+            if self.name == x:
+                print('I am ' + str(self.name) + ' I am team red. I am hunting' + str(green_names) + 'and fleeing from' + str(blue_names))
+            elif self.name == green_names[idx]:
+                print('I am ' + str(self.name) + ' I am team green. I am hunting' + str(blue_names) + 'and fleeing from' + str(red_names))
+            elif self.name == blue_names[idx]:
+                print('I am ' + str(self.name) + ' I am team blue. I am hunting' + str(red_names) + 'and fleeing from' + str(green_names))
+            else:
+                pass
 
     def goalReceivedCallBack(self, goal_msg):
 
@@ -105,6 +127,25 @@ class Driver:
 
         return angle, speed
 
+    def GetImagePrey(self, data):
+        rospy.loginfo('Image received...')
+        image = self.br.imgmsg_to_cv2(data, "bgr8")
+        # Convert the image to a Numpy array since most cv2 functions
+
+        # require Numpy arrays.
+        frame = np.array(image, dtype=np.uint8)
+
+        # Process the frame using the process_image() function
+        display_image = self.process_image(frame)
+
+        cv2.imshow('prey', frame)
+        cv2.waitKey(0)
+
+    def process_image(self, frame):
+        # Convert to HSV
+        grey = cv2.cvtColor(frame, cv2.COLOR_RGB2HSV)
+
+        return grey
 
 
 def main():

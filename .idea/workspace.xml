@@ -5,23 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="Ex classes updated">
-      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/game_bringup.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/params/game.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula13/p_spombinho_core/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula13/p_spombinho_core/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula13/p_spombinho_core/src/model_states_to_tf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula13/p_spombinho_player/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula13/p_spombinho_player/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula13/p_spombinho_player/src/driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/gazebo_bringup.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.urdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football1/football1.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football1/materials/scripts/football1.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football1/materials/textures/football1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football1/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football2/football2.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football2/materials/scripts/football2.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football2/materials/textures/football2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football2/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/th_arena/goal_box/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/th_arena/goal_box/model.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/th_arena/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/th_arena/model.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/tiles/materials/scripts/tiles.material" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/tiles/materials/textures/tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/tiles/model.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/tiles/tiles.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/worlds/th_arena_1.world" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/worlds/th_arena_2.world" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/worlds/th_arena_3.world" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_referee/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_referee/package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_referee/src/set_player_names" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aula14/TeamHunt/th_referee/src/th_referee" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/config/visualize.rviz" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/config/visualize.rviz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/bringup.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/gmapping.launch" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/gmapping.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/teleop_joyps3.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.gazebo.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.gazebo.xacro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.urdf.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.urdf.xacro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/pointgrey_flea3.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/pointgrey_flea3.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/game_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup/launch/game_bringup.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.gazebo.macro.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_description/urdf/p_spombinho.gazebo.macro.xacro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula13/p_spombinho_player/src/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula13/p_spombinho_player/src/driver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +307,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642615123399</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Ex classes updated">
+      <created>1643211523364</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1643211523364</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Ex classes updated">
+      <created>1643211589998</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1643211589998</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
