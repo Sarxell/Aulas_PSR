@@ -4,41 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="professor th added">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="camera width changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_bringup_class/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup_class/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_bringup_class/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_bringup_class/package.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_description_class/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_description_class/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_description_class/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_description_class/package.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula12/p_spombinho_description_class/urdf/p_spombinho.gazebo.macro.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/Aula12/p_spombinho_description_class/urdf/p_spombinho.gazebo.macro.xacro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula13/p_spombinho_player_class/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Aula13/p_spombinho_player_class/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula13/p_spombinho_player_class/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Aula13/p_spombinho_player_class/package.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football1/football1.sdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football1/materials/scripts/football1.material" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football1/materials/textures/football1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football1/model.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football2/football2.sdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football2/materials/scripts/football2.material" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football2/materials/textures/football2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/football2/model.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/th_arena/goal_box/model.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/th_arena/goal_box/model.sdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/th_arena/model.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/th_arena/model.sdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/tiles/materials/scripts/tiles.material" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/tiles/materials/textures/tiles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/tiles/model.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/models/tiles/tiles.sdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/package.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/worlds/th_arena_1.world" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/worlds/th_arena_2.world" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_description/worlds/th_arena_3.world" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_referee/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_referee/package.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_referee/src/set_player_names" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula14/TeamHunt/th_referee/src/th_referee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/bringup.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_description/urdf/p_spombinho.gazebo.macro.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_description/urdf/p_spombinho.gazebo.macro.xacro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_description/urdf/p_spombinho.urdf.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_description/urdf/p_spombinho.urdf.xacro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,7 +313,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645100955077</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="professor th added">
+      <created>1645104245686</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1645104245686</updated>
+    </task>
+    <task id="LOCAL-00037" summary="camera width changed">
+      <created>1645195136043</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1645195136043</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,7 +361,8 @@
     <MESSAGE value="right_laser.launch and left_laser.launch added" />
     <MESSAGE value="Ex classes updated" />
     <MESSAGE value="professor th added" />
-    <option name="LAST_COMMIT_MESSAGE" value="professor th added" />
+    <MESSAGE value="camera width changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="camera width changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
