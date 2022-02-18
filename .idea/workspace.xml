@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="camera width changed">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="Back camera added as well as rviz changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/bringup.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_description/urdf/p_spombinho.gazebo.macro.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_description/urdf/p_spombinho.gazebo.macro.xacro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_description/urdf/p_spombinho.urdf.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_description/urdf/p_spombinho.urdf.xacro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/config/visualize.rviz" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/config/visualize.rviz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +49,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src" />
       <recent name="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho" />
     </key>
   </component>
@@ -327,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645195136043</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Back camera added as well as rviz changed">
+      <created>1645198311426</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1645198311426</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,7 +368,8 @@
     <MESSAGE value="Ex classes updated" />
     <MESSAGE value="professor th added" />
     <MESSAGE value="camera width changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="camera width changed" />
+    <MESSAGE value="Back camera added as well as rviz changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Back camera added as well as rviz changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
