@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="thinking.txt updated with points I need to make">
-      <change beforePath="$PROJECT_DIR$/.idea/Aulas_PSR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Aulas_PSR.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="colors created and masks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3.py" afterDir="false" />
     </list>
@@ -349,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645293236611</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="colors created and masks">
+      <created>1645303053125</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1645303053125</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -387,7 +391,8 @@
     <MESSAGE value="Back camera added as well as rviz changed" />
     <MESSAGE value="driver_TP3 working for whatever car name" />
     <MESSAGE value="thinking.txt updated with points I need to make" />
-    <option name="LAST_COMMIT_MESSAGE" value="thinking.txt updated with points I need to make" />
+    <MESSAGE value="colors created and masks" />
+    <option name="LAST_COMMIT_MESSAGE" value="colors created and masks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
