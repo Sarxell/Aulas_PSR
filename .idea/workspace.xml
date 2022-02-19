@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="colors created and masks">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="masks with color and gray background added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3.py" afterDir="false" />
     </list>
@@ -360,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645303903122</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="masks with color and gray background added">
+      <created>1645307342358</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1645307342358</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -399,7 +406,8 @@
     <MESSAGE value="driver_TP3 working for whatever car name" />
     <MESSAGE value="thinking.txt updated with points I need to make" />
     <MESSAGE value="colors created and masks" />
-    <option name="LAST_COMMIT_MESSAGE" value="colors created and masks" />
+    <MESSAGE value="masks with color and gray background added" />
+    <option name="LAST_COMMIT_MESSAGE" value="masks with color and gray background added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
