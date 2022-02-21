@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="masks with color and gray background added">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="lidar values created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/thinking.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/thinking.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,7 +369,28 @@
       <option name="project" value="LOCAL" />
       <updated>1645307342358</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="masks with color and gray background added">
+      <created>1645307541554</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1645307541554</updated>
+    </task>
+    <task id="LOCAL-00045" summary="camera intrinsics added and laserscan data received">
+      <created>1645376357130</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1645376357130</updated>
+    </task>
+    <task id="LOCAL-00046" summary="camera intrinsics and extrinsics created">
+      <created>1645378864066</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1645378864066</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,7 +430,9 @@
     <MESSAGE value="thinking.txt updated with points I need to make" />
     <MESSAGE value="colors created and masks" />
     <MESSAGE value="masks with color and gray background added" />
-    <option name="LAST_COMMIT_MESSAGE" value="masks with color and gray background added" />
+    <MESSAGE value="camera intrinsics added and laserscan data received" />
+    <MESSAGE value="camera intrinsics and extrinsics created" />
+    <option name="LAST_COMMIT_MESSAGE" value="camera intrinsics and extrinsics created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
