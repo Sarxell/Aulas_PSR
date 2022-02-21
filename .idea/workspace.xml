@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="lidar values created">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="still error in the lidar points, values don't give the real ones">
+      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_v2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/thinking.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/thinking.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PSR_TP2_G10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -67,20 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634467240437</updated>
-    </task>
-    <task id="LOCAL-00001" summary="ex updated">
-      <created>1636455728548</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1636455728548</updated>
-    </task>
-    <task id="LOCAL-00002" summary="ex updated">
-      <created>1636455761648</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1636455761648</updated>
     </task>
     <task id="LOCAL-00003" summary="ex updated">
       <created>1636477819335</created>
@@ -390,7 +375,42 @@
       <option name="project" value="LOCAL" />
       <updated>1645378864066</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="laser points still not fixed">
+      <created>1645440093084</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1645440093084</updated>
+    </task>
+    <task id="LOCAL-00048" summary="still error in the lidar points, values don't give the real ones">
+      <created>1645449922706</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1645449922706</updated>
+    </task>
+    <task id="LOCAL-00049" summary="still error in the lidar points, values don't give the real ones">
+      <created>1645451172438</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1645451172438</updated>
+    </task>
+    <task id="LOCAL-00050" summary="still error in the lidar points, values don't give the real ones">
+      <created>1645452654227</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1645452654228</updated>
+    </task>
+    <task id="LOCAL-00051" summary="still error in the lidar points, values don't give the real ones">
+      <created>1645453812206</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1645453812206</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,8 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="color_segmented.py done! Can be changed to be more efficient if needed" />
-    <MESSAGE value="Only the setups are done for now" />
     <MESSAGE value="in development!" />
     <MESSAGE value="error in the json file, need to change color segmented to not send string" />
     <MESSAGE value="color_segmented.py updated to send ranges as a dictionary" />
@@ -432,7 +450,9 @@
     <MESSAGE value="masks with color and gray background added" />
     <MESSAGE value="camera intrinsics added and laserscan data received" />
     <MESSAGE value="camera intrinsics and extrinsics created" />
-    <option name="LAST_COMMIT_MESSAGE" value="camera intrinsics and extrinsics created" />
+    <MESSAGE value="laser points still not fixed" />
+    <MESSAGE value="still error in the lidar points, values don't give the real ones" />
+    <option name="LAST_COMMIT_MESSAGE" value="still error in the lidar points, values don't give the real ones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
