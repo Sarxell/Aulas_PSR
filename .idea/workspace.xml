@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="still error in the lidar points, values don't give the real ones">
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_v2.py" afterDir="false" />
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="driver_TP3_v2.py with the LIDAR working!!!">
+      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/drivers_bringup.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/teleop.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/teleop.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_v2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +67,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634467240437</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ex updated">
-      <created>1636477819335</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1636477819335</updated>
     </task>
     <task id="LOCAL-00004" summary="ex updated">
       <created>1636547465784</created>
@@ -410,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645453812206</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="driver_TP3_v2.py with the LIDAR working!!!">
+      <created>1645462589759</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1645462589759</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,7 +428,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="in development!" />
     <MESSAGE value="error in the json file, need to change color segmented to not send string" />
     <MESSAGE value="color_segmented.py updated to send ranges as a dictionary" />
     <MESSAGE value="errors worked, problem in the dictionary solved" />
@@ -452,7 +452,8 @@
     <MESSAGE value="camera intrinsics and extrinsics created" />
     <MESSAGE value="laser points still not fixed" />
     <MESSAGE value="still error in the lidar points, values don't give the real ones" />
-    <option name="LAST_COMMIT_MESSAGE" value="still error in the lidar points, values don't give the real ones" />
+    <MESSAGE value="driver_TP3_v2.py with the LIDAR working!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="driver_TP3_v2.py with the LIDAR working!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
