@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="Goal created seeing teammates, preys and attackers">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="THE ROBOT FOLLOWS THE PREY CAR">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_v2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../PSR_TP2_G10" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../PSR_TP3_G7" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -65,13 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634467240437</updated>
-    </task>
-    <task id="LOCAL-00006" summary="ex updated">
-      <created>1636641919706</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1636641919706</updated>
     </task>
     <task id="LOCAL-00007" summary="color_segmented.py done! Can be changed to be more efficient if needed">
       <created>1637000199273</created>
@@ -409,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645552931760</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="THE ROBOT FOLLOWS THE PREY CAR">
+      <created>1645557800557</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1645557800558</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -426,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="errors worked, problem in the dictionary solved" />
     <MESSAGE value="if changed, it is working properly the implemented challenges" />
     <MESSAGE value="Aula8" />
     <MESSAGE value="Ex updated with program with centroid and the biggest object" />
@@ -451,7 +451,8 @@
     <MESSAGE value="driver_TP3_v2.py with the LIDAR working!!!" />
     <MESSAGE value="drivers_bringup.launch added, manual mode made" />
     <MESSAGE value="Goal created seeing teammates, preys and attackers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Goal created seeing teammates, preys and attackers" />
+    <MESSAGE value="THE ROBOT FOLLOWS THE PREY CAR" />
+    <option name="LAST_COMMIT_MESSAGE" value="THE ROBOT FOLLOWS THE PREY CAR" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
