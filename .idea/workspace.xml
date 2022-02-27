@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="THE ROBOT FOLLOWS THE PREY CAR">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="Rviz markers working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_v2.py" afterDir="false" />
@@ -66,13 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634467240437</updated>
-    </task>
-    <task id="LOCAL-00007" summary="color_segmented.py done! Can be changed to be more efficient if needed">
-      <created>1637000199273</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1637000199273</updated>
     </task>
     <task id="LOCAL-00008" summary="color_segmented.py done! Can be changed to be more efficient if needed">
       <created>1637000281345</created>
@@ -410,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645557800558</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Rviz markers working">
+      <created>1645702674328</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1645702674328</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="if changed, it is working properly the implemented challenges" />
     <MESSAGE value="Aula8" />
     <MESSAGE value="Ex updated with program with centroid and the biggest object" />
     <MESSAGE value="ar_paint_v1.py can draw with the cellphone!" />
@@ -452,7 +451,8 @@
     <MESSAGE value="drivers_bringup.launch added, manual mode made" />
     <MESSAGE value="Goal created seeing teammates, preys and attackers" />
     <MESSAGE value="THE ROBOT FOLLOWS THE PREY CAR" />
-    <option name="LAST_COMMIT_MESSAGE" value="THE ROBOT FOLLOWS THE PREY CAR" />
+    <MESSAGE value="Rviz markers working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rviz markers working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
