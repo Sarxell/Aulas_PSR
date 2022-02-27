@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="Rviz markers working">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="Catch the prey optimized">
+      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_camera_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/config/visualize.rviz" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/config/visualize.rviz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/drivers_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/drivers_bringup.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_v2.py" afterDir="false" />
     </list>
@@ -66,13 +69,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634467240437</updated>
-    </task>
-    <task id="LOCAL-00008" summary="color_segmented.py done! Can be changed to be more efficient if needed">
-      <created>1637000281345</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1637000281345</updated>
     </task>
     <task id="LOCAL-00009" summary="color_segmented.py done! Can be changed to be more efficient if needed">
       <created>1637001104909</created>
@@ -410,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645702674328</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Catch the prey optimized">
+      <created>1645967121534</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1645967121534</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,7 +430,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Aula8" />
     <MESSAGE value="Ex updated with program with centroid and the biggest object" />
     <MESSAGE value="ar_paint_v1.py can draw with the cellphone!" />
     <MESSAGE value="ar_paint_v1.py can draw with the cellphone! also, the cross is done and the green" />
@@ -452,7 +454,8 @@
     <MESSAGE value="Goal created seeing teammates, preys and attackers" />
     <MESSAGE value="THE ROBOT FOLLOWS THE PREY CAR" />
     <MESSAGE value="Rviz markers working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rviz markers working" />
+    <MESSAGE value="Catch the prey optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Catch the prey optimized" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
