@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="Catch the prey optimized">
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_camera_test.py" afterDir="false" />
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="markers, running mode created and states made">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/config/visualize.rviz" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/config/visualize.rviz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/drivers_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/drivers_bringup.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_v2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634467240437</updated>
-    </task>
-    <task id="LOCAL-00009" summary="color_segmented.py done! Can be changed to be more efficient if needed">
-      <created>1637001104909</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1637001104909</updated>
     </task>
     <task id="LOCAL-00010" summary="color_segmented.py done! Can be changed to be more efficient if needed">
       <created>1637058490827</created>
@@ -413,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645967121534</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="markers, running mode created and states made">
+      <created>1645993416757</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1645993416757</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -430,7 +426,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ex updated with program with centroid and the biggest object" />
     <MESSAGE value="ar_paint_v1.py can draw with the cellphone!" />
     <MESSAGE value="ar_paint_v1.py can draw with the cellphone! also, the cross is done and the green" />
     <MESSAGE value="ar_paint_v1.py can draw with the cellphone! misses in the saved file the weekday" />
@@ -455,7 +450,8 @@
     <MESSAGE value="THE ROBOT FOLLOWS THE PREY CAR" />
     <MESSAGE value="Rviz markers working" />
     <MESSAGE value="Catch the prey optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Catch the prey optimized" />
+    <MESSAGE value="markers, running mode created and states made" />
+    <option name="LAST_COMMIT_MESSAGE" value="markers, running mode created and states made" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
