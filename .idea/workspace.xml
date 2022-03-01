@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="The robots move... they have some problems but oh well">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="improved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/drivers_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/drivers_bringup.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_final.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,13 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634467240437</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Aula8">
-      <created>1637142423152</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1637142423152</updated>
     </task>
     <task id="LOCAL-00019" summary="Ex updated with program with centroid and the biggest object">
       <created>1637146879246</created>
@@ -411,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646153376806</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="improved">
+      <created>1646162753180</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1646162753181</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ex aula11" />
     <MESSAGE value="right_laser.launch and left_laser.launch added" />
     <MESSAGE value="Ex classes updated" />
     <MESSAGE value="professor th added" />
@@ -453,7 +451,8 @@
     <MESSAGE value="navigation.launch better for red1" />
     <MESSAGE value="driver_TP3_final.py created with navigation implemented (very arcaic)" />
     <MESSAGE value="The robots move... they have some problems but oh well" />
-    <option name="LAST_COMMIT_MESSAGE" value="The robots move... they have some problems but oh well" />
+    <MESSAGE value="improved" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
