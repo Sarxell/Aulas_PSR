@@ -5,25 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="drivers_bringup.launch updated to see the camera video">
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/amcl.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/move_base.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/turtlebot3_navigation.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/maps/map.pgm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/maps/map.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/base_local_planner_params.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/costmap_common_params_burger.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/costmap_common_params_waffle.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/costmap_common_params_waffle_pi.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/dwa_local_planner_params_burger.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/dwa_local_planner_params_waffle.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/dwa_local_planner_params_waffle_pi.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/global_costmap_params.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/local_costmap_params.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/move_base_params.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/rviz/turtlebot3_navigation.rviz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/world_navigation.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/gmapping.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/amcl.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/amcl.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/move_base.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/move_base.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/turtlebot3_navigation.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/navigation.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/global_costmap_params.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/global_costmap_params.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/local_costmap_params.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/local_costmap_params.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +54,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch" />
       <recent name="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src" />
       <recent name="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho" />
     </key>
