@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="navigation.launch better for red1">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="driver_TP3_final.py created with navigation implemented (very arcaic)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_camera_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_final.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/drivers_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/drivers_bringup.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_final.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +68,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634467240437</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Only the setups are done for now">
-      <created>1637063124617</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1637063124617</updated>
     </task>
     <task id="LOCAL-00013" summary="in development!">
       <created>1637064359089</created>
@@ -410,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646137017020</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="driver_TP3_final.py created with navigation implemented (very arcaic)">
+      <created>1646139399106</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1646139399106</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,7 +429,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ar_paint_v1.py can draw with the cellphone! misses in the saved file the weekday" />
     <MESSAGE value="ex updated" />
     <MESSAGE value="ex aula11" />
     <MESSAGE value="right_laser.launch and left_laser.launch added" />
@@ -452,7 +453,8 @@
     <MESSAGE value="markers, running mode created and states made" />
     <MESSAGE value="drivers_bringup.launch updated to see the camera video" />
     <MESSAGE value="navigation.launch better for red1" />
-    <option name="LAST_COMMIT_MESSAGE" value="navigation.launch better for red1" />
+    <MESSAGE value="driver_TP3_final.py created with navigation implemented (very arcaic)" />
+    <option name="LAST_COMMIT_MESSAGE" value="driver_TP3_final.py created with navigation implemented (very arcaic)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
