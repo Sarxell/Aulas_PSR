@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="drivers_bringup.launch updated to see the camera video">
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/world_navigation.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/gmapping.launch" afterDir="false" />
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="navigation.launch better for red1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/amcl.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/amcl.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/move_base.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/move_base.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/turtlebot3_navigation.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch/navigation.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/global_costmap_params.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/global_costmap_params.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/local_costmap_params.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/param/local_costmap_params.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_camera_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_final.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +48,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch" />
       <recent name="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src" />
+      <recent name="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch" />
       <recent name="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho" />
     </key>
   </component>
@@ -72,13 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634467240437</updated>
-    </task>
-    <task id="LOCAL-00011" summary="color_segmented.py done! Can be changed to be more efficient if needed">
-      <created>1637063095479</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1637063095479</updated>
     </task>
     <task id="LOCAL-00012" summary="Only the setups are done for now">
       <created>1637063124617</created>
@@ -416,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646062477556</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="navigation.launch better for red1">
+      <created>1646137017019</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1646137017020</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -433,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ar_paint_v1.py can draw with the cellphone! also, the cross is done and the green" />
     <MESSAGE value="ar_paint_v1.py can draw with the cellphone! misses in the saved file the weekday" />
     <MESSAGE value="ex updated" />
     <MESSAGE value="ex aula11" />
@@ -458,7 +451,8 @@
     <MESSAGE value="Catch the prey optimized" />
     <MESSAGE value="markers, running mode created and states made" />
     <MESSAGE value="drivers_bringup.launch updated to see the camera video" />
-    <option name="LAST_COMMIT_MESSAGE" value="drivers_bringup.launch updated to see the camera video" />
+    <MESSAGE value="navigation.launch better for red1" />
+    <option name="LAST_COMMIT_MESSAGE" value="navigation.launch better for red1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
