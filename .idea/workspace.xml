@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="LIDAR scans improved!!!!">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="improved driver_TP3_final.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src/driver_TP3_final.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,13 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634467240437</updated>
-    </task>
-    <task id="LOCAL-00020" summary="ar_paint_v1.py can draw with the cellphone!">
-      <created>1637152376539</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1637152376539</updated>
     </task>
     <task id="LOCAL-00021" summary="ar_paint_v1.py can draw with the cellphone!">
       <created>1637155766563</created>
@@ -411,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646171137283</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="improved driver_TP3_final.py">
+      <created>1646243132681</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1646243132681</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ex classes updated" />
     <MESSAGE value="professor th added" />
     <MESSAGE value="camera width changed" />
     <MESSAGE value="Back camera added as well as rviz changed" />
@@ -453,7 +451,8 @@
     <MESSAGE value="The robots move... they have some problems but oh well" />
     <MESSAGE value="improved" />
     <MESSAGE value="LIDAR scans improved!!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="LIDAR scans improved!!!!" />
+    <MESSAGE value="improved driver_TP3_final.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved driver_TP3_final.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
