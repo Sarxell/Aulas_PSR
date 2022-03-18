@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="improved driver_TP3_final.py">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="ip address changed">
+      <change afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/drivers_bringup.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_bringup/launch/game_bringup.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/drivers.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/drivers.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/left_laser.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/left_laser.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/right_laser.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/right_laser.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/laser2d.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/laser2d_bringup.launch" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,20 +67,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634467240437</updated>
-    </task>
-    <task id="LOCAL-00022" summary="ar_paint_v1.py can draw with the cellphone! also, the cross is done and the green">
-      <created>1637156098284</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1637156098284</updated>
-    </task>
-    <task id="LOCAL-00023" summary="ar_paint_v1.py can draw with the cellphone! misses in the saved file the weekday">
-      <created>1637157262076</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1637157262076</updated>
     </task>
     <task id="LOCAL-00024" summary="ex updated">
       <created>1637229701303</created>
@@ -413,7 +397,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646245843357</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="ip addresses changed">
+      <created>1647270522210</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1647270522210</updated>
+    </task>
+    <task id="LOCAL-00072" summary="ip address changed">
+      <created>1647426799692</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1647426799694</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -430,8 +428,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="professor th added" />
-    <MESSAGE value="camera width changed" />
     <MESSAGE value="Back camera added as well as rviz changed" />
     <MESSAGE value="driver_TP3 working for whatever car name" />
     <MESSAGE value="thinking.txt updated with points I need to make" />
@@ -455,7 +451,9 @@
     <MESSAGE value="improved" />
     <MESSAGE value="LIDAR scans improved!!!!" />
     <MESSAGE value="improved driver_TP3_final.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="improved driver_TP3_final.py" />
+    <MESSAGE value="ip addresses changed" />
+    <MESSAGE value="ip address changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="ip address changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
