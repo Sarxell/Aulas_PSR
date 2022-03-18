@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="drivers_bringup.launch added">
-      <change afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/top_cameras_bringup.launch" afterDir="false" />
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="top_cameras_bringup.launch added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/drivers_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/drivers_bringup.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/asus_xtion.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/include/asus_xtion.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/bringup.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/laser2d_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/include/laser2d_bringup.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/lms1xx.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/include/lms1xx.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/novatel.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/include/novatel.launch" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +70,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634467240437</updated>
-    </task>
-    <task id="LOCAL-00025" summary="ex aula11">
-      <created>1639595283247</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1639595283247</updated>
     </task>
     <task id="LOCAL-00026" summary="ex aula11">
       <created>1639595727880</created>
@@ -411,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647626523201</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="top_cameras_bringup.launch added">
+      <created>1647639550519</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1647639550519</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,7 +431,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="driver_TP3 working for whatever car name" />
     <MESSAGE value="thinking.txt updated with points I need to make" />
     <MESSAGE value="colors created and masks" />
     <MESSAGE value="masks with color and gray background added" />
@@ -453,7 +455,8 @@
     <MESSAGE value="ip addresses changed" />
     <MESSAGE value="ip address changed" />
     <MESSAGE value="drivers_bringup.launch added" />
-    <option name="LAST_COMMIT_MESSAGE" value="drivers_bringup.launch added" />
+    <MESSAGE value="top_cameras_bringup.launch added" />
+    <option name="LAST_COMMIT_MESSAGE" value="top_cameras_bringup.launch added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
