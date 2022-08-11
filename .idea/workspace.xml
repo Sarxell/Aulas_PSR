@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="top_cameras_bringup.launch added">
+    <list default="true" id="601fb5e1-97e4-4a1f-b758-5101e96dba62" name="Changes" comment="#43 odometry argument added in bringup.launch and README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/Aulas_PSR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Aulas_PSR.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/asus_xtion.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/include/asus_xtion.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/bringup.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/laser2d_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/include/laser2d_bringup.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/lms1xx.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/include/lms1xx.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/novatel.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/include/novatel.launch" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,16 +23,27 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../atlascar2" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="manuelgitgomes &lt;gomesnelito@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../../atlascar2" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/drivers.launch" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/pointgrey_flea3.launch" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/ackermann_bringup.launch" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/include/pointgrey_flea3.launch" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Aula13/p_spombinho_player_class/src/driver.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Aula13/p_spombinho_core/src/model_states_to_tf.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Aula12/p_spombinho_bringup_class/launch/bringup.launch" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Aula12/p_spombinho_bringup_class/launch/spawn.launch" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../atlascar2/atlascar2_description/config/atlascar2_steering_params.yaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Aula12/p_spombinho_description_class/urdf/p_spombinho.gazebo.xacro" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Aula12/p_spombinho_description_class/urdf/p_spombinho.urdf.xacro" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -52,15 +61,138 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Ficton_niryo" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="ManuelGomes" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="ManuelGomes" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../atlascar2/atlascar2_description/urdf" />
       <recent name="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_player/src" />
       <recent name="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho/p_spombinho_navigation/launch" />
       <recent name="$PROJECT_DIR$/../PSR_TP3_G7/p_spombinho" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../atlascar2/atlascar2_odom/nodes" />
+      <recent name="$PROJECT_DIR$/../../atlascar2/atlascar2_bringup/launch/include" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Publish_odom" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ManuelGomes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../ManuelGomes/atlascar2/atlascar2_description_manuel/nodes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../ManuelGomes/atlascar2/atlascar2_description_manuel/nodes/Publish_odom.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="ATLASCAR2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="ATLASCAR2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="ATLASCAR2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="ATLASCAR2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="ATLASCAR2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Publish_odom" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,286 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634467240437</updated>
-    </task>
-    <task id="LOCAL-00026" summary="ex aula11">
-      <created>1639595727880</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1639595727880</updated>
-    </task>
-    <task id="LOCAL-00027" summary="right_laser.launch and left_laser.launch added">
-      <created>1640261671628</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1640261671628</updated>
-    </task>
-    <task id="LOCAL-00028" summary="right_laser.launch and left_laser.launch added">
-      <created>1640261985814</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1640261985814</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Ex classes updated">
-      <created>1642068017892</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1642068017892</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Ex classes updated">
-      <created>1642601227655</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1642601227655</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Ex classes updated">
-      <created>1642615123399</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1642615123399</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Ex classes updated">
-      <created>1643211523364</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1643211523364</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Ex classes updated">
-      <created>1643211589998</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1643211589998</updated>
-    </task>
-    <task id="LOCAL-00034" summary="professor th added">
-      <created>1645100469713</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1645100469713</updated>
-    </task>
-    <task id="LOCAL-00035" summary="professor th added">
-      <created>1645100955077</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1645100955077</updated>
-    </task>
-    <task id="LOCAL-00036" summary="professor th added">
-      <created>1645104245686</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1645104245686</updated>
-    </task>
-    <task id="LOCAL-00037" summary="camera width changed">
-      <created>1645195136043</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1645195136043</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Back camera added as well as rviz changed">
-      <created>1645198311426</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1645198311426</updated>
-    </task>
-    <task id="LOCAL-00039" summary="driver_TP3 working for whatever car name">
-      <created>1645200064753</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1645200064753</updated>
-    </task>
-    <task id="LOCAL-00040" summary="thinking.txt updated with points I need to make">
-      <created>1645293236611</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1645293236611</updated>
-    </task>
-    <task id="LOCAL-00041" summary="colors created and masks">
-      <created>1645303053125</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1645303053125</updated>
-    </task>
-    <task id="LOCAL-00042" summary="colors created and masks">
-      <created>1645303903122</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1645303903122</updated>
-    </task>
-    <task id="LOCAL-00043" summary="masks with color and gray background added">
-      <created>1645307342358</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1645307342358</updated>
-    </task>
-    <task id="LOCAL-00044" summary="masks with color and gray background added">
-      <created>1645307541554</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1645307541554</updated>
-    </task>
-    <task id="LOCAL-00045" summary="camera intrinsics added and laserscan data received">
-      <created>1645376357130</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1645376357130</updated>
-    </task>
-    <task id="LOCAL-00046" summary="camera intrinsics and extrinsics created">
-      <created>1645378864066</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1645378864066</updated>
-    </task>
-    <task id="LOCAL-00047" summary="laser points still not fixed">
-      <created>1645440093084</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1645440093084</updated>
-    </task>
-    <task id="LOCAL-00048" summary="still error in the lidar points, values don't give the real ones">
-      <created>1645449922706</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1645449922706</updated>
-    </task>
-    <task id="LOCAL-00049" summary="still error in the lidar points, values don't give the real ones">
-      <created>1645451172438</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1645451172438</updated>
-    </task>
-    <task id="LOCAL-00050" summary="still error in the lidar points, values don't give the real ones">
-      <created>1645452654227</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1645452654228</updated>
-    </task>
-    <task id="LOCAL-00051" summary="still error in the lidar points, values don't give the real ones">
-      <created>1645453812206</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1645453812206</updated>
-    </task>
-    <task id="LOCAL-00052" summary="driver_TP3_v2.py with the LIDAR working!!!">
-      <created>1645462589759</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1645462589759</updated>
-    </task>
-    <task id="LOCAL-00053" summary="drivers_bringup.launch added, manual mode made">
-      <created>1645544526443</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1645544526443</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Goal created seeing teammates, preys and attackers">
-      <created>1645552931760</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1645552931760</updated>
-    </task>
-    <task id="LOCAL-00055" summary="THE ROBOT FOLLOWS THE PREY CAR">
-      <created>1645557800557</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1645557800558</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Rviz markers working">
-      <created>1645702674328</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1645702674328</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Catch the prey optimized">
-      <created>1645967121534</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1645967121534</updated>
-    </task>
-    <task id="LOCAL-00058" summary="markers, running mode created and states made">
-      <created>1645993416757</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1645993416757</updated>
-    </task>
-    <task id="LOCAL-00059" summary="drivers_bringup.launch updated to see the camera video">
-      <created>1646062477556</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1646062477556</updated>
-    </task>
-    <task id="LOCAL-00060" summary="navigation.launch better for red1">
-      <created>1646137017019</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1646137017020</updated>
-    </task>
-    <task id="LOCAL-00061" summary="driver_TP3_final.py created with navigation implemented (very arcaic)">
-      <created>1646139399106</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1646139399106</updated>
-    </task>
-    <task id="LOCAL-00062" summary="The robots move... they have some problems but oh well">
-      <created>1646150157883</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1646150157883</updated>
-    </task>
-    <task id="LOCAL-00063" summary="The robots move... they have some problems but oh well">
-      <created>1646151277911</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1646151277911</updated>
-    </task>
-    <task id="LOCAL-00064" summary="The robots move... they have some problems but oh well">
-      <created>1646151945950</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1646151945950</updated>
-    </task>
-    <task id="LOCAL-00065" summary="The robots move... they have some problems but oh well">
-      <created>1646152841501</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1646152841501</updated>
     </task>
     <task id="LOCAL-00066" summary="The robots move... they have some problems but oh well">
       <created>1646153376806</created>
@@ -414,7 +266,287 @@
       <option name="project" value="LOCAL" />
       <updated>1647639550519</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="include directory created and sensors launch files moved">
+      <created>1647640478945</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1647640478945</updated>
+    </task>
+    <task id="LOCAL-00076" summary="testing the xacro model">
+      <created>1649239469889</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1649239469890</updated>
+    </task>
+    <task id="LOCAL-00077" summary="changed inertia values">
+      <created>1649265517263</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1649265517263</updated>
+    </task>
+    <task id="LOCAL-00078" summary="damping added">
+      <created>1649320860359</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1649320860359</updated>
+    </task>
+    <task id="LOCAL-00079" summary="front steer joint looks like it dows nothing">
+      <created>1649324704426</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1649324704426</updated>
+    </task>
+    <task id="LOCAL-00080" summary="front steer joint looks like it does nothing">
+      <created>1649325123152</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1649325123152</updated>
+    </task>
+    <task id="LOCAL-00081" summary="wheels not right">
+      <created>1649345676961</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1649345676962</updated>
+    </task>
+    <task id="LOCAL-00082" summary="wheels not right">
+      <created>1649346114182</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1649346114183</updated>
+    </task>
+    <task id="LOCAL-00083" summary="&lt;robotSimType&gt;steer_bot_hardware_gazebo/SteerBotHardwareGazebo&lt;/robotSimType&gt; breaks the computer">
+      <created>1649347194217</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1649347194217</updated>
+    </task>
+    <task id="LOCAL-00084" summary="simulation working">
+      <created>1649369250365</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1649369250365</updated>
+    </task>
+    <task id="LOCAL-00085" summary="simulation working">
+      <created>1649417530827</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1649417530828</updated>
+    </task>
+    <task id="LOCAL-00086" summary="simulation working">
+      <created>1649417542220</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1649417542220</updated>
+    </task>
+    <task id="LOCAL-00087" summary="simulation working">
+      <created>1649417722846</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1649417722846</updated>
+    </task>
+    <task id="LOCAL-00088" summary="xacro with the atlascar body done and working">
+      <created>1649457719484</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1649457719484</updated>
+    </task>
+    <task id="LOCAL-00089" summary="xacro with the atlascar body done and working">
+      <created>1649666031876</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1649666031876</updated>
+    </task>
+    <task id="LOCAL-00090" summary="xacro with the atlascar body done and working">
+      <created>1649666636441</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1649666636442</updated>
+    </task>
+    <task id="LOCAL-00091" summary="#29 ackermann data added">
+      <created>1649944161051</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1649944161052</updated>
+    </task>
+    <task id="LOCAL-00092" summary="#29 odometry python code done">
+      <created>1650319611350</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1650319611351</updated>
+    </task>
+    <task id="LOCAL-00093" summary="#29 odometry python code done">
+      <created>1650320323255</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1650320323255</updated>
+    </task>
+    <task id="LOCAL-00094" summary="steering_params added">
+      <created>1650320423858</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1650320423858</updated>
+    </task>
+    <task id="LOCAL-00095" summary="#30 CAN-USB messages received code">
+      <created>1650369153013</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1650369153013</updated>
+    </task>
+    <task id="LOCAL-00096" summary="#30 ackermann_msgs already being published">
+      <created>1650378871149</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1650378871149</updated>
+    </task>
+    <task id="LOCAL-00097" summary="#30 ackermann_msgs already being published">
+      <created>1650379159310</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1650379159310</updated>
+    </task>
+    <task id="LOCAL-00098" summary="code updated just to test">
+      <created>1650382139587</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1650382139587</updated>
+    </task>
+    <task id="LOCAL-00099" summary="code updated just to test">
+      <created>1650383475484</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1650383475484</updated>
+    </task>
+    <task id="LOCAL-00100" summary="#30 rpm speed created to compare">
+      <created>1650487548651</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1650487548652</updated>
+    </task>
+    <task id="LOCAL-00101" summary="#35 tf_prefix added on live mode">
+      <created>1650619802920</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1650619802921</updated>
+    </task>
+    <task id="LOCAL-00102" summary="rpm speed added">
+      <created>1650627695077</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1650627695077</updated>
+    </task>
+    <task id="LOCAL-00103" summary="steering angle changed">
+      <created>1650636285539</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1650636285539</updated>
+    </task>
+    <task id="LOCAL-00104" summary="#37 URDF with real inertia and mass values">
+      <created>1650807103471</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1650807103472</updated>
+    </task>
+    <task id="LOCAL-00105" summary="controller and code updated">
+      <created>1650913105764</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1650913105765</updated>
+    </task>
+    <task id="LOCAL-00106" summary="controller and code updated">
+      <created>1651602957163</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1651602957163</updated>
+    </task>
+    <task id="LOCAL-00107" summary="CAN msgs code">
+      <created>1653483157973</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1653483157974</updated>
+    </task>
+    <task id="LOCAL-00108" summary="max vel changed">
+      <created>1653483457941</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1653483457941</updated>
+    </task>
+    <task id="LOCAL-00109" summary="can msgs changed">
+      <created>1653483485626</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1653483485626</updated>
+    </task>
+    <task id="LOCAL-00110" summary="#39 sending values to the ackermann controller">
+      <created>1653589991385</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1653589991386</updated>
+    </task>
+    <task id="LOCAL-00111" summary="#39 updated code to calculate the odometry">
+      <created>1653592111933</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1653592111934</updated>
+    </task>
+    <task id="LOCAL-00112" summary="#39 odom_bringup.launch created">
+      <created>1653903295690</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1653903295691</updated>
+    </task>
+    <task id="LOCAL-00113" summary="#39 CANmsgs_to_ackermann_v2.py updated, angular velocity working">
+      <created>1654094657609</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1654094657609</updated>
+    </task>
+    <task id="LOCAL-00114" summary="#43 odometry argument added in bringup.launch and README.md">
+      <created>1656604390015</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1656604390015</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -422,7 +554,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -431,32 +590,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="thinking.txt updated with points I need to make" />
-    <MESSAGE value="colors created and masks" />
-    <MESSAGE value="masks with color and gray background added" />
-    <MESSAGE value="camera intrinsics added and laserscan data received" />
-    <MESSAGE value="camera intrinsics and extrinsics created" />
-    <MESSAGE value="laser points still not fixed" />
-    <MESSAGE value="still error in the lidar points, values don't give the real ones" />
-    <MESSAGE value="driver_TP3_v2.py with the LIDAR working!!!" />
-    <MESSAGE value="drivers_bringup.launch added, manual mode made" />
-    <MESSAGE value="Goal created seeing teammates, preys and attackers" />
-    <MESSAGE value="THE ROBOT FOLLOWS THE PREY CAR" />
-    <MESSAGE value="Rviz markers working" />
-    <MESSAGE value="Catch the prey optimized" />
-    <MESSAGE value="markers, running mode created and states made" />
-    <MESSAGE value="drivers_bringup.launch updated to see the camera video" />
-    <MESSAGE value="navigation.launch better for red1" />
-    <MESSAGE value="driver_TP3_final.py created with navigation implemented (very arcaic)" />
-    <MESSAGE value="The robots move... they have some problems but oh well" />
-    <MESSAGE value="improved" />
-    <MESSAGE value="LIDAR scans improved!!!!" />
-    <MESSAGE value="improved driver_TP3_final.py" />
-    <MESSAGE value="ip addresses changed" />
-    <MESSAGE value="ip address changed" />
-    <MESSAGE value="drivers_bringup.launch added" />
-    <MESSAGE value="top_cameras_bringup.launch added" />
-    <option name="LAST_COMMIT_MESSAGE" value="top_cameras_bringup.launch added" />
+    <MESSAGE value="front steer joint looks like it does nothing" />
+    <MESSAGE value="wheels not right" />
+    <MESSAGE value="&lt;robotSimType&gt;steer_bot_hardware_gazebo/SteerBotHardwareGazebo&lt;/robotSimType&gt; breaks the computer" />
+    <MESSAGE value="simulation working" />
+    <MESSAGE value="xacro with the atlascar body done and working" />
+    <MESSAGE value="#29 ackermann data added" />
+    <MESSAGE value="#29 odometry python code done" />
+    <MESSAGE value="steering_params added" />
+    <MESSAGE value="#30 CAN-USB messages received code" />
+    <MESSAGE value="#30 ackermann_msgs already being published" />
+    <MESSAGE value="code updated just to test" />
+    <MESSAGE value="#30 rpm speed created to compare" />
+    <MESSAGE value="#35 tf_prefix added on live mode" />
+    <MESSAGE value="rpm speed added" />
+    <MESSAGE value="steering angle changed" />
+    <MESSAGE value="#37 URDF with real inertia and mass values" />
+    <MESSAGE value="controller and code updated" />
+    <MESSAGE value="CAN msgs code" />
+    <MESSAGE value="max vel changed" />
+    <MESSAGE value="can msgs changed" />
+    <MESSAGE value="#39 sending values to the ackermann controller" />
+    <MESSAGE value="#39 updated code to calculate the odometry" />
+    <MESSAGE value="#39 odom_bringup.launch created" />
+    <MESSAGE value="#39 CANmsgs_to_ackermann_v2.py updated, angular velocity working" />
+    <MESSAGE value="#43 odometry argument added in bringup.launch and README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="#43 odometry argument added in bringup.launch and README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
